@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.container h1 {
+    padding-left: 15px;
+}
+
+.container nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    height: 34px;
+    align-items: center;
+}
+
+.container nav ul li a {
+    color: white;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    background: url(login.webp);
+    background-size: cover;
+}
+
+h2 {
+    padding-top: 11%;
+    font: bold;
+    color: white;
+}
+
+.box {
+    padding-top: 30px;
+}
+
+.box input {
+    padding: 10px;
+    width: 35%;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 20%;
+}
+
+.h {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+#services .box1 {
+    margin: 20px;
+    border: 5px solid rgb(241, 241, 245);
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgb(250, 248, 248);
+}
+
+/* #services.box1:hover{
+background-color: palevioletred;
+cursor: pointer;
+} */
+
+.image {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.secondary {
+    text-align: center;
+    padding: 10px;
+}
+
+.js {
+    width: 225px;
+    border-radius: 50%;
+}
+
+.price {
+    text-align: center;
+    color: red;
+    padding-bottom: 7px;
+}
+
+.course {
+    background: url(course4.jpeg);
+    background-size: cover;
+}
+
+.head {
+    color: black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding: 40px;
+    padding-left: 65%;
+}
+
+.class-container {
+    display: flex;
+}
+
+.img {
+    width: 500px;
+    padding: 10px;
+}
+
+.para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#info {
+    background-color: rgb(133, 129, 129);
+    display: flex;
+    padding: 60px;
+
+}
+
+.box2 {
+    color: white;
+    text-align: center;
+    padding-left: 60px;
+    padding-bottom: 40px;
+
+}
+
+.box2 h3 {
+    padding-top: 10px;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#teacher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.primary0 img {
+    border-radius: 50%;
+    padding: 50px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.primary img {
+    border-radius: 50%;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.primary1 img {
+    border-radius: 50%;
+    padding: 50px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.faculty {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: radial-gradient(circle, rgb(235, 148, 197) 0%, rgb(133, 172, 216)100%);
+    margin-top: 70px;
+}
+
+.name h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.name h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+.foot {
+   background: radial-gradient(circle, rgb(16, 10, 36) 0%, rgb(57, 64, 71)100%);
+    color: white;
+    padding-bottom: 70px;
+}
+
+.foot h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.foot ul li{
+    padding: 12px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 12px;
+}
+@media screen and (max-width:950px)
+{
+    /* .box1{
+        flex-wrap: wrap;
+    }
+    .course{
+        flex-wrap: wrap;
+    } */
+    .primary0,
+    .primary,
+    .primary1 {
+        text-align: center;
+        flex-wrap: wrap;
+        
+    }
+    .class-container{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .about{
+        flex-wrap: wrap;
+    }
+    .infotech{
+        flex-wrap: wrap;
+    }
+    .course .box1 {
+        width: 90%;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
+}
